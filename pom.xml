@@ -5,15 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.vserdiuk.multimodule</groupId>
-    <artifactId>multi-module</artifactId>
-
+    <artifactId>parent-module</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>ModuleDomain</module>
-        <module>ModuleBL</module>
-        <module>ChildProject</module>
+        <module>FirstChildModule</module>
+        <module>SecondChildModule</module>
+        <module>ThirdChildModule</module>
     </modules>
 
 </project>
